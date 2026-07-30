@@ -1,0 +1,9 @@
+{
+  "name": "boost-your-math-chatbot",
+  "version": "1.0.0",
+  "description": "A playful algebra chatbot that can talk to an LLM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Mingle Bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div class="hero-badge">✨ Playful Algebra Coach</div>
+        <h1>Math Mingle</h1>
+        <p>
+          Ask me about equations, factoring, quadratics, functions, and more — I’ll explain it like a fun teacher who loves math.
+        </p>
+      </header>
+
+      <main class="chat-card">
+        <div class="chat-window" id="chatWindow"></div>
+
+        <div class="suggestions" aria-label="Quick topics">
+          <button class="chip" data-message="Teach me quadratic equations">Quadratics</button>
+          <button class="chip" data-message="Explain factoring with an example">Factoring</button>
+          <button class="chip" data-message="Give me a fun algebra quiz">Quiz me</button>
+          <button class="chip" data-message="Help me with exponents">Exponents</button>
+        </div>
+
+        <form class="composer" id="chatForm">
+          <input
+            id="userInput"
+            type="text"
+            placeholder="Type your algebra question here..."
+            autocomplete="off"
+          />
+          <button type="submit">Send</button>
+        </form>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
